@@ -29,6 +29,7 @@ class window_main():
     def wind_show(self):
         self.window.deiconify()
     def screen_shot(self):
+        self.wind_hide()
         self.sub_app = window_full_screen()
     def event_exit(self):
         self.window.destroy()
